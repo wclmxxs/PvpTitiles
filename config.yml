@@ -1,0 +1,37 @@
+rate: 0.01
+minkillscore: 2
+deatherdrop: 1.00
+score: 1
+day-score: 10
+level:
+  0:
+   need: 0
+   name: '§a憨憨'
+  1:
+   need: 20
+   name: '§b憨憨'
+  2:
+   need: 30
+   name: '§c憨憨'
+limittime: 10
+#玩家几秒内死亡会给予杀穆值
+update: 5
+#多久更新一次前十
+savetime: 600
+#多久自动保存一次
+deathmessage:
+  killer: '你击杀玩家%player%获得%killscore%'
+  deather: '您被%player%击杀失去%killscore%'
+scoremessage: '你获得1积分当前积分: %score%'
+shopname: '积分商城'
+leveldownmessage: '您杀穆值减少被降级到%name%'
+levelupmessage: '恭喜您升级到%name%'
+scorenotenough: '您的积分不足'
+buyitem: '购买成功'
+mysql:
+ ip: localhost
+ name: root
+ pwd: 123456
+ port: 3306
+ table: pvpt
+ data: mysql

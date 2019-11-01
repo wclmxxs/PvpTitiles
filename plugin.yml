@@ -1,0 +1,9 @@
+name: PvpTitles
+main: PvpTitles.Main
+version: 1.0
+author: Mxxs
+softdepend: [PlaceholderAPI]
+commands:
+   pvpt:
+      description: This is a demo command.
+      usage: /<command> [location]
